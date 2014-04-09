@@ -2,15 +2,15 @@
  * Module dependencies.
  */
 
-var bind = require('bind');
-var Emitter = require('emitter');
-var events = require('events');
-var query = require('query');
-var domify = require('domify');
-var classes = require('classes');
-var css = require('css');
+var bind = require('component-bind');
+var Emitter = require('component-emitter');
+var events = require('component-events');
+var query = require('component-query');
+var domify = require('component-domify');
+var classes = require('component-classes');
+var css = require('component-css');
 var html = domify(require('./template.html'));
-var offset = require('offset');
+var offset = require('timoxley-offset');
 
 /**
  * Expose `Tip`.
